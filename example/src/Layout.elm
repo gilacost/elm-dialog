@@ -1,10 +1,9 @@
 module Layout exposing (..)
 
-import Html.App as Html
+import Dialog
 import Html exposing (..)
 import Html.Attributes exposing (..)
 import Html.Events exposing (..)
-import Dialog
 import Model exposing (..)
 
 

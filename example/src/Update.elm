@@ -1,7 +1,7 @@
 module Update exposing (..)
 
-import Foo.Update as Foo
 import Bar.Update as Bar
+import Foo.Update as Foo
 import Model exposing (..)
 
 

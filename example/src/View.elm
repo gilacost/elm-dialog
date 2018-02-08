@@ -1,14 +1,13 @@
 module View exposing (..)
 
-import Html.App as Html
+import Bar.View as Bar
+import Dialog
+import Foo.View as Foo
 import Html exposing (..)
 import Html.Attributes exposing (..)
 import Html.Events exposing (..)
-import Dialog
-import Model exposing (..)
 import Layout exposing (renderLayout)
-import Foo.View as Foo
-import Bar.View as Bar
+import Model exposing (..)
 
 
 view : Model -> Html Msg
